@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.deskripsi {
+  padding: 180px 0 140px 0;
+  background-image: url(img/Background.png);
+  background-size: cover;
+  color: rgb(111, 250, 255);
+  text-align: center;
+}
+
+.deskripsi h1 {
+  opacity: 0.9;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.deskripsi h2 {
+  opacity: 0.9;
+  font-size: 23px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.deskripsi p {
+  opacity: 0.7;
+  font-size: 26px;
+  margin-bottom: 3px;
+}
+
+.rgst {
+  padding: 200px 0 200px 0;
+  text-align: center;
+  margin: 0 auto;
+  background-image: url(img/medsos.jpg);
+  opacity: 1.5;
+  background-size: cover;
+}
+
+.rgst p {
+  margin: 10px 0;
+  font-size: 50px;
+  opacity:  1.9;
+  color: rgb(0, 8, 116);
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 30px;
+}
+
+.instagram {
+  background-color: #a84a8c;
+}
+
+.whatsapp {
+  background-color: #00d435;
+}
+
+.btn {
+  padding: 20px 34px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 10px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(57, 119, 25, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 100px;
+  margin-right: 120px;
+}
+
+.header-kiri {
+  float: left;
+  padding-top: 10px;
+}
+
+.header-kanan {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-kanan a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-kanan a:hover {
+  background-color: rgba(15, 204, 172, 0.3);
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.packet-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f8e2e2;
+  text-align: center;
+}
+.packet {
+  float: left;
+  width: 33%;
+
+}
+
+.packet-icon {
+  position: relative;
+  cursor: pointer;
+}
+
+.packet-icon :hover {
+  background-color: rgba(15, 204, 172, 0.3);
+  opacity: 1.9;
+}
+
+.packet-icon p {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 20px 50px;
+  background-color: #64a1f0;
+  cursor: pointer;
+  box-shadow: 0 7px #1a4079;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 100px;
+  size: 10px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 20px;
+  float: right;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+footer {
+  height: auto;
+  background-color: rgb(43, 11, 11);
+  padding-top: 5px;
+  width: 100%;
+  float: left;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+table {
+  border: "0";
+  style: center;
+  color: rgb(4, 11, 102);
+  padding-top: 100px;
+}
+
+body1 {
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+header h1 {
+  float: left;
+  padding-top: 20px;
+  padding-left: 190px;
+  text-align: center;
+  color: aqua;
+}
